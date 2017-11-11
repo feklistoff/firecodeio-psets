@@ -22,5 +22,11 @@ Example:
 
 some reading [here](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 
+### Bubble Sort
 
+Write a function that takes in an array of `int`s and the `size` of the array and uses the
+Bubble Sort algorithm to sort the array in ascending order.
 
+The function should return the same, in-place sorted array.
+
+**[answer](https://github.com/feklistoff/firecodeio-psets/blob/master/bubble_sort.cpp)**
