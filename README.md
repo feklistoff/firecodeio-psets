@@ -18,6 +18,7 @@ Example:
   / \ / \
  4  5 6  7 
 ```
+
 **[answer](https://github.com/feklistoff/firecodeio-psets/blob/master/recursive_preorder_traversal.cpp)**
 
 ### Bubble Sort
@@ -125,4 +126,38 @@ Examples:
 ```
 
 **[answer](https://github.com/feklistoff/firecodeio-psets/blob/master/levelorder_traversal.cpp)**
+
+### Insert a Node at the End of a Linked List
+
+Write a function to insert a node at the end of a singly-linked list. Return the head of the modified list. 
+
+```
+Examples:
+
+Linkedlist: 1, head = 1
+
+insert_at_tail(head,1) ==> 1->1
+insert_at_tail(head,2) ==> 1->2
+insert_at_tail(head,3) ==> 1->3
+```
+
+**[answer](https://github.com/feklistoff/firecodeio-psets/blob/master/insert_node_end_linked_list.cpp)**
+
+### Mobile Game Range Module - Merging Ranges
+
+A Range Module is a module that tracks ranges of numbers. Range modules are used extensively when designing scalable online game maps with millions of players. Your task is to write a method - `merge_intervals` that takes in a `vector` of integer `Interval`s (aka ranges), and returns a `vector` of **sorted** `Interval`s where all overlapping intervals have been merged. The `Interval` class is available by clicking **Use Me**.
+```
+Note: 
+a) [1,3] represents an interval that includes 1, 2 and 3.
+b) Intervals should be sorted based on the value of start 
+```
+
+```
+Examples: 
+Input: [ [1,3], [2,5] ], Output: [ [1,5] ]
+Input: [ [3,5], [1,2] ], Output: [ [1,2], [3,5] ]
+```
+
+**[answer](https://github.com/feklistoff/firecodeio-psets/blob/master/merging_ranges.cpp)**
+
 
